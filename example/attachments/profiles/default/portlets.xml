@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<portlets
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="plone">
+
+    <assignment
+        manager="plone.rightcolumn"
+        category="content_type"
+        key="Document"
+        type="portlets.Navigation"
+        name="attachments"
+        visible="True">
+      <property name="name">Attachments</property>
+      <property name="currentFolderOnly">True</property>
+    </assignment>
+
+</portlets>
